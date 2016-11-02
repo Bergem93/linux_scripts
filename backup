@@ -1,0 +1,5 @@
+#!/bin/bash
+# Enkelt backupscript, kjøres 00.00 hver dag ved hjelp av cron tables
+
+dato=/var/my-backup-$(date +%Y %m %d).tgz
+tar -cZf $dato ~/
