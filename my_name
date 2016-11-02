@@ -1,0 +1,4 @@
+#!bin/bash
+# Dette sciptet printer ut brukernavn på innlogget bruker.
+
+echo "Du er logget inn som $USER på $HOSTNAME"
