@@ -1,0 +1,5 @@
+#!bin/bash
+#Dette scriptet flytter alle filer med ordet "joke" i filnavnet.
+
+mkdir -p jokes
+mv joke* jokes
