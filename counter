@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Enkelt script som teller til 10.
+
+COUNTER=0
+	while [ $COUNTER -lt 11 ]; do
+		echo The counter is $COUNTER
+		let COUNTER=COUNTER+1
+	done
